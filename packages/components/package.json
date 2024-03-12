@@ -22,7 +22,7 @@
     "storybook:dev": "storybook dev -p 3001",
     "storybook:build": "storybook build",
     "clean": "rimraf node_modules dist .turbo storybook-static .tamagui",
-    "prepack": "yarn build"
+    "prepack": "yarn && yarn build"
   },
   "peerDependencies": {
     "react": "^18.2.0"
